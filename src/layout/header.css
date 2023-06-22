@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #967E76;
+}
+.header{
+    background-color: #D7C0AE;
+    padding: 15px;
+}
+.brand{
+    margin-left: 85%;
+    color: white;
+    font-size: 50px;
+    font-family:'Post No Bills Jaffna';
+    animation: colorChange 5s infinite;
+}
+@keyframes colorChange {
+    0% {
+      color:antiquewhite;
+    }
+    50% {
+      color:black;
+    }
+    100% {
+        color: #967E76;
+    }
+  }
+.brand:hover{
+    color: white;
+    font-size: 45px;
+    transition: .6s;
+}
+.brand:not(:hover){
+    transition: .4s;
+}
+.link{
+    color: black;
+    font-size: 22px;
+    font-family:'Post No Bills Jaffna';
+    margin: 0px;    
+    border-bottom: 1px solid grey;
+}
+.link:hover{
+    color: #967E76;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    transition: .4s;
+}
+.link:not(:hover){
+    transition: .4s;
+}

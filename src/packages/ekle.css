@@ -1,0 +1,82 @@
+.container_margin{
+    margin-bottom: 30px;
+}
+.label{
+    margin:0px;
+}
+.control{
+    margin-bottom: 5px;
+}
+.card{
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid grey;
+    margin-right: 0px;
+    border-radius: 20px;
+    color: white;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.card-body{
+    background-size: cover;
+    color: white;
+    font-size: 12px;
+}
+.card-body a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Post No Bills Jaffna';
+}
+.card-body h5{
+    font-size: 35px;
+    margin: 15px 0px 0px 0px;
+    font-family: 'Post No Bills Jaffna';
+}
+.card-title{
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nowrap {
+    white-space: nowrap;
+}
+  
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.fiyat{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.resim{
+    background-color: red;
+    width: 100%;
+    border-radius: 300px;
+    transition: .5s;
+    animation: spin 6s infinite linear;
+}
+.resim:hover{
+    opacity: .5;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+.tanim{
+    font-size: 13px;
+}
+.tarih{
+    margin: 0px;
+}
+.form{
+    font-family:'Post No Bills Jaffna';
+    font-size: 20px;
+}
